@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+body {
+    padding-top: 2%;
+    transform: scale(0.8);
+}
+
+.header {
+    float: left;
+    display: flex;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.name-holder {
+    font-size: 100px;
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+}
+
+.personal-information {
+    float: left;
+    width: 40%;
+}
+
+.info-holder {
+    width: 100%;
+    float: left;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.info-left {
+    float: left;
+    text-align: right;
+    font-weight: bold;
+    width: 15%;
+}
+
+.info-right {
+    float: right;
+    width: 83%;
+    text-align: left;
+}
+
+.contents{
+    margin-left: 3%;
+}
+
+.content-header {
+    font-size: 35px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.content-data {
+    font-size: 30px;
+    margin-left: 1%;
+    margin-top: 3px;
+    font-weight: 600;
+}
+
+.content-description {
+    font-size: 25px;
+    margin-left: 1%;
+    width: 70%;
+}
+
+.content-date{
+    font-size: 20px;
+    font-weight: lighter;
+    color: gray;
+    margin-left: 1%;
+    margin-bottom: 10px;
+}
+
+.grid-row {
+    width: 70%;
+    align-items: center;
+    margin-left: 1%;
+    height: 150px;
+}
+
+.grid-column{
+    width: 50%;
+    float: left;
+}
+
+.grid-header {
+    font-size: 25px;
+}
+
+.grid-data {
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
