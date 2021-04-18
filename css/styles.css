@@ -9,6 +9,27 @@ body {
     transform: scale(0.8);
 }
 
+.main-page-header {
+    width: 100%;
+    text-align: left;
+    font-size: 100px;
+}
+
+.cv-button-div {
+    padding-top: 5%;
+    width: 100%;
+    
+}
+
+.cv-button {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    color: rgb(34, 61, 61);
+}
+
 .header {
     float: left;
     display: flex;
